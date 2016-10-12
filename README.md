@@ -13,10 +13,9 @@ docker build --tag [your repo]/[image name] .
 To run the container:
 
 ```
-docker run -d [your repo]/[image name] tail -f /dev/null
+docker run -d [your repo]/[image name]
 ```
 
-running the command tail -f /dev/null at the end is to prevent the container from exiting and having running after initial run. The container will exit after run if no background jobs is running from a command that's been executed
 
 Can use image as a base for other applications that runs on Unix/Linux environments.
 
