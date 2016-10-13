@@ -21,5 +21,8 @@ Can use image as a base for other applications that runs on Unix/Linux environme
 
 In your Dockerfile (first line)
 
+```
 FROM [your repo]/[image name]
+```
+
 ideally, you would have built your image and uploaded to a Docker Registry (either a private hosted docker registry or Docker Hub).
